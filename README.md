@@ -19,22 +19,27 @@ GuardianAI is a Machine Learning-powered engine designed to detect fraudulent tr
 3.  **Prediction:** The trained model analyzes 30+ features to output a `Fraud Probability Score`.
 
 ## 🚀 How to Run Locally
-1.  **Clone the Repository**
-    ```bash
-    git clone [Your-GitHub-Link-Here]
-    cd Manthan_Fraud_Detection
-    ```
 
-2.  **Install Dependencies**
+1.  **Install Dependencies**
     ```bash
     pip install -r requirements.txt
     ```
 
-3.  **Run the App**
+2.  **Run the App**
     ```bash
     streamlit run app.py
     ```
 
 ## 📊 Results
 * **Recall:** High sensitivity to fraud cases (minimized false negatives).
+Clean Transaction:
+
+* <img width="781" height="977" alt="image" src="https://github.com/user-attachments/assets/27b0701e-11dd-401b-8db3-4d520bdf2e0b" />
+Fraud Detected:
+
+<img width="722" height="874" alt="image" src="https://github.com/user-attachments/assets/ac2c9b74-51eb-47ae-a271-b6934d1fff53" />
+
+
+
+
 * **Precision:** Optimized to reduce false alarms for genuine users.
